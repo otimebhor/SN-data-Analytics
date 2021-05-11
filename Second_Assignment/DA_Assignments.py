@@ -42,13 +42,13 @@ def convert_to_currency(num):
 num = int(input('Type a number: '))
 print(convert_to_currency(num))
 #Question 10
-def string_adder(x,y):
+def string_adder(x='',y=''):
     if y == "":
-        print(x)
+        return x
     elif x == "" and y == "":
-        print("")
+        return ""
     else:
-        print(x + " " + y)
+        return x + " " + y
 
 string1 = input('first_word: ')
 string2 = input('second_word: ')
